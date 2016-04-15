@@ -1,0 +1,102 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #e7e7d3;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  padding: 1em;
+}
+
+h2 {
+  color: #607332;
+  padding-top: 3em;
+}
+
+.growth-one svg {
+  width: 1.5em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-one p {
+  text-align: center;
+}
+
+.growth-two svg {
+  width: 2em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-two p {
+  text-align: center;
+}
+
+.growth-three svg {
+  width: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-three p {
+  text-align: center;
+}
+
+.growth-four svg {
+  width: 3em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-four p {
+  text-align: center;
+}
+
+.growth-five svg {
+  width: 4em;
+  margin: 0 auto;
+  display: block;
+}
+
+.growth-five p {
+  text-align: center;
+}
+
+.fruit svg {
+  width: 4em;
+  margin: 0 auto;
+  display: block;
+}
+
+.fruit p {
+  text-align: center;
+}
+
+.green {
+  color: #a8bf50;
+}
+
+.chart svg {
+  margin: 0 auto;
+}
