@@ -28,6 +28,16 @@ svg {
   padding: 1em;
 }
 
+.flower {
+  transform: rotate(0);
+  transform-origin: 210px 112px;
+  transition: all 2s linear;
+}
+
+.title:hover .flower {
+  transform: rotate(360deg);
+}
+
 h2 {
   color: #607332;
   padding-top: 3em;
@@ -83,10 +93,32 @@ h2 {
   text-align: center;
 }
 
-.fruit svg {
+.fruit-ani {
   width: 4em;
   margin: 0 auto;
   display: block;
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-svg-animate {
+  opacity: 1;
+  animation: svg-jiggle 250ms linear;
+}
+
+@keyframes svg-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .fruit p {
