@@ -163,10 +163,13 @@ h2 {
   margin: 0 auto;
 }
 
-.plant {
+.chart-ani {
+  margin: 0 auto;
+  display: block;
   opacity: 0;
+  transition: all 200ms ease-in;
 }
 
-.plant:hover {
+.js-svg-animate-2 {
   opacity: 1;
 }
