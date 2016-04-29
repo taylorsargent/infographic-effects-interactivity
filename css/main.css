@@ -138,23 +138,19 @@ h2 {
 
 @keyframes svg-jiggle {
 
-  0%
- {
+  0% {
     transform: rotate(0);
   }
 
-  33%
- {
+  33% {
     transform: rotate(15deg);
   }
 
-  66%
- {
+  66% {
     transform: rotate(-15deg);
   }
 
-  100%
- {
+  100% {
     transform: rotate(0);
   }
 }
@@ -180,4 +176,8 @@ h2 {
 
 .js-svg-animate-2 {
   opacity: 1;
+}
+
+h1 {
+  margin: 0;
 }
