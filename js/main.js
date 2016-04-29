@@ -15,4 +15,4 @@ $chartani.waypoint(function (direction) {
   } else {
     $chartani.removeClass('js-svg-animate-2');
   }
-}, {offset: '10%'});
+}, {offset: 'bottom-in-view'});
