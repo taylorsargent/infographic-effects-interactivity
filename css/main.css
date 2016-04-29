@@ -138,10 +138,14 @@ h2 {
 
 @keyframes svg-jiggle {
   0% {
+
     transform: rotate(0);
+
   }
   33% {
+
     transform: rotate(15deg);
+
   }
   66% {
     transform: rotate(-15deg);
